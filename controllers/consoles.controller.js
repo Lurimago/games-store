@@ -44,7 +44,7 @@ const updateConsole = catchAsync(async (req, res, next) => {
 const deleteConsole = catchAsync(async (req, res, next) => {
 	const { console } = req;
 
-	await console.update({ status: 'deleted' });
+	await console.update({ status: 'disabled' });
 
 	res.status(200).json({
 		status: 'success',
