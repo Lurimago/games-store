@@ -1,6 +1,6 @@
 const dotenv = require('dotenv');
 
-const { app } = require('./app');
+const { app } = require('./ap');
 
 // Utils
 const { initModels } = require('./models/initModels');
